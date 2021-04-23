@@ -43,6 +43,8 @@ class UjianController extends Controller
         $request->validate([
             'nama_mk' => 'required',
             'dosen' => 'required',
+            'jumlah_soal' => 'required',
+            'keterangan' => 'required',
         ]);
   
         ujian::create($request->all());
@@ -91,8 +93,9 @@ class UjianController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function destroy($id)
+    public function destroy(Ujian $ujians)
     {
-        //
+       
+        
     }
 }

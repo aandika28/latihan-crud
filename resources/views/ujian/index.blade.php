@@ -20,7 +20,7 @@
             <th scope="col">No</th>
             <th scope="col">Mata Kuliah</th>
             <th scope="col">Dosen</th>
-            <th scope="col">jumlah Soal</th>
+            <th scope="col">Jumlah Soal</th>
             <th scope="col">Keterangan</th>
             <th scope="col">Aksi</th>
             </tr>
@@ -36,7 +36,7 @@
             <td scope="row"> 
                 <form action="">
                   <a class="btn btn-warning" href="">Edit</a>
-
+                    
                   <button type="submit" class="btn btn-danger">Delete</button>
                 </form>
             </td>

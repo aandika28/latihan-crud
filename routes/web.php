@@ -23,3 +23,4 @@ Route::get('ujian/add', 'UjianController@add' ) ->name('ujian.add');
 
 //  simpan data
 Route::post('ujian/save', 'UjianController@save' ) ->name('ujian.save');
+
